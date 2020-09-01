@@ -1,4 +1,4 @@
-# NeuroAED: Towards Efficient Abnormal EventDetection in Visual Surveillance withNeuromorphic Vision Sensor
+# NeuroAED: Towards Efficient Abnormal Event Detection in Visual Surveillance with Neuromorphic Vision Sensor
 This is the NeuroAED dataset and implementation code for the following paper. If you use any of them, please cite: 
 
 # NeuroAED dataset
