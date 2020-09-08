@@ -22,4 +22,4 @@ The NeuroAED dataset comprises 152 samples of four different indoor and outdoor 
 
 # Framework of NeuroAED
 We extract the optical flow information from training sample and select activated event cuboids based on the optical flow and event density to locate foreground. For each activated event cuboid, the proposed event-based multiscale spatio-temporal (EMST) descriptor is extracted and feed into models to learn the normal patterns. The trained models are used to identify descriptors of abnormal patterns extracted from the testing sample.
-![image](https://github.com/ispc-lab/NeuroAED/tree/master/images/Dataset_samples.png)
+![image](https://github.com/ispc-lab/NeuroAED/blob/master/images/Dataset_samples.png)
