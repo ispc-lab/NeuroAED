@@ -1,3 +1,7 @@
+'''
+extract events information from .aedat file and saved as .txt file
+'''
+
 import numpy as np
 import os
 import struct
@@ -91,8 +95,8 @@ def getDVSeventsDavis(file, ROI=np.array([]), numEvents=1e10, startEvent=0):
 
 
 if __name__ == "__main__":
-    rpathraw = '/media/lpg/新加卷/anomaly detection/stairs/aedat/nor/'
-    wpathtxt = '/home/lpg/PycharmProjects/AED/anomaly_dataset/stairs/events/nor/'
+    rpathraw = '...' # folder containing .aedat files
+    wpathtxt = '...' # folder to save converted files
 
     for root, dirs, fs in os.walk(rpathraw):
         for f in fs:
