@@ -467,9 +467,9 @@ void ACuboid(vector<vector<float> > &eventmat, int poithr, vector<vector<float> 
 int main()
 {
    
-    string eventspath = "./data/walking/events/nor/";    // the folder of storing events txt
-    string ofpath = "./data/walking/fixof/nor/";         // the folder of storing optical flow information txt
-    string savepath = "./data/walking/result/nor/";      // the folder of storing feature txt
+    string eventspath = "./data/walking/events/abnor/";    // the folder of storing events txt
+    string ofpath = "./data/walking/fixof/abnor/";         // the folder of storing optical flow information txt
+    string savepath = "./data/walking/result/abnor/";      // the folder of storing feature txt
     
 
 
