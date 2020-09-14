@@ -469,7 +469,7 @@ int main()
    
     string eventspath = "./data/walking/events/abnor/";    // the folder of storing events txt
     string ofpath = "./data/walking/fixof/abnor/";         // the folder of storing optical flow information txt
-    string savepath = "./data/walking/result/abnor/";      // the folder of storing feature txt
+    string savepath = "./data/walking/feature/abnor/";      // the folder of storing feature txt
     
 
 
