@@ -5,13 +5,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-
 #include <unistd.h>
 #include <dirent.h>
 #include <algorithm>
-
-
-
 #include <sstream>
 #include <fstream>
 #include <cassert>
@@ -20,7 +16,6 @@
 #include <numeric>
 
 
-  
 
 const int tbaseduration = 100000; 
 const int slidingt = 100000; 
@@ -472,9 +467,9 @@ void ACuboid(vector<vector<float> > &eventmat, int poithr, vector<vector<float> 
 int main()
 {
    
-    string eventspath = "/media/lpg/My Passport/AED/anomaly_dataset/walking/events/nor/";
-    string ofpath = "/media/lpg/My Passport/AED/anomaly_dataset/walking/fixof/nor/";
-    string savepath = "/media/lpg/My Passport/AED/anomaly_dataset/walking/result/nor_400/";
+    string eventspath = "./data/walking/events/nor/";    // the folder of storing events txt
+    string ofpath = "./data/walking/fixof/nor/";         // the folder of storing optical flow information txt
+    string savepath = "./data/walking/result/nor/";      // the folder of storing feature txt
     
 
 
