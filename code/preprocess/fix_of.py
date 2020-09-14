@@ -1,8 +1,13 @@
+'''
+The original optical flow file extracted by jAER may have negativate timestamps and format problems,
+this procedure is to handle them.
+'''
+
 import numpy as np
 import os
 
-oforipath = '/media/lpg/新加卷/anomaly detection/campusof1/nor/'
-offixpath = '/home/lpg/PycharmProjects/AED/anomaly_dataset/campus/fixof1/nor/'
+oforipath = '...' # Folder where original optical flow files have been stored
+offixpath = '...' # Folder to store fixed optical flow files
 
 
 for root, dirs, fs in os.walk(oforipath):
