@@ -24,13 +24,15 @@ The NeuroAED dataset comprises 152 samples of four different indoor and outdoor 
 We extract the optical flow information from training sample and select activated event cuboids based on the optical flow and event density to locate foreground. For each activated event cuboid, the proposed event-based multiscale spatio-temporal (EMST) descriptor is extracted and feed into models to learn the normal patterns. The trained models are used to identify descriptors of abnormal patterns extracted from the testing sample.
 
 <img height="300" width = '800' src ='https://github.com/ispc-lab/NeuroAED/blob/master/images/Figure1.png'>
-## Code Implementation
-   
+
+## Code Implementation  
 ### Preprocess:
-    + Extract events information from .aedat file using aedat2txt.py. 
-    + Extract optical flow information using jAER.
-    + Fix original optical flow file using fix_of.py.
+
+    a. Extract events information from .aedat file using aedat2txt.py. 
+    b. Extract optical flow information using jAER.
+    c. Fix original optical flow file using fix_of.py.
     
 ### Running:
-    + Generate EMST features using feature_generation.cpp
+
+    a. Generate EMST features using feature_generation.cpp
 
