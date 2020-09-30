@@ -11,7 +11,7 @@ This is the NeuroAED dataset and implementation code for the following paper. If
 }
 ```
 ## NeuroAED dataset
-Considering the lack of a neuromorphic benchmark for the abnormal event detection, we record the first neuromorphic vision based abnormal event detection dataset and make it available to the research community at the link: https://pan.baidu.com/s/1eP2DTTzRjlWsZ0xGMyuB0A and the code: 3gpm 
+Considering the lack of a neuromorphic benchmark for the abnormal event detection, we record the first neuromorphic vision based abnormal event detection dataset and make it available to the research community at the link: https://pan.baidu.com/s/1eP2DTTzRjlWsZ0xGMyuB0A and the code: 3gpm. 
 
 <img height="182" width='800' src='https://github.com/ispc-lab/NeuroAED/blob/master/images/Dataset_description.png'>
 
