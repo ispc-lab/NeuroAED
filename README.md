@@ -1,14 +1,14 @@
 # NeuroAED: Towards Efficient Abnormal Event Detection in Visual Surveillance with Neuromorphic Vision Sensor
 This is the NeuroAED dataset and implementation code for the following paper. If you use any of them, please cite: 
 ```
-@ARTICLE{,
-        title = {NeuroAED: Towards Efficient Abnormal Event Detection in Visual Surveillance with Neuromorphic Vision Sensor},
-      journal = {},
-         year = {2020},
-        pages = {},
-      author  = {}, 
-       eprint = {} 
-}
+@ARTICLE{9195516,  
+author={G. {Chen} and P. {Liu} and Z. {Liu} and H. {Tang} and L. {Hong} and J. {Dong} and J. {Conradt} and A. {Knoll}},  
+journal={IEEE Transactions on Information Forensics and Security},   
+title={NeuroAED: Towards Efficient Abnormal Event Detection in Visual Surveillance With Neuromorphic Vision Sensor},   
+year={2021},  
+volume={16},  
+number={},  
+pages={923-936},}
 ```
 ## NeuroAED dataset
 Considering the lack of a neuromorphic benchmark for the abnormal event detection, we record the first neuromorphic vision based abnormal event detection dataset and make it available to the research community at the link: https://pan.baidu.com/s/1eP2DTTzRjlWsZ0xGMyuB0A and the code: 3gpm. 
