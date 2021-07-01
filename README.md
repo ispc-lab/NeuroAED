@@ -31,8 +31,10 @@ We extract the optical flow information from training sample and select activate
     a. Extract events information from .aedat file using aedat2txt.py. 
     b. Extract optical flow information using jAER.
     c. Fix original optical flow file using fix_of.py.
+    d. The main model file: /Models/core.py.
     
 ### Running:
 
     a. Generate EMST features using feature_generation.cpp
+    b. Get the Slice_level and Pixel_level values using /Models/core.py
 
